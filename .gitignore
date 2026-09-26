@@ -1,0 +1,32 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+
+# Research inputs and generated outputs
+/projects/
+/data/
+/backups/
+/uploads/
+/exports/
+/logs/
+/output/
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.vscode/
+.idea/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
